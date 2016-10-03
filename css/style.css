@@ -209,7 +209,7 @@ body {
 	background: linear-gradient(
       rgba(0, 0, 0, 0.5), 
       rgba(0, 0, 0, 0.5)
-    ),url("https://vita-tours.herokuapp.com/img/3.jpg");
+    ),url("http://vita-tours.herokuapp.com/img/3.jpg");
 	background-size: cover;
 	background-position: fixed;
 }
@@ -355,9 +355,9 @@ https://upload.wikimedia.org/wikipedia/commons/a/ae/PikiWiki_Israel_4207_landsca
 
 /*Recipe Gallery*/
 .gallery {
-	padding-top: 80px;
+	padding-top: 50px;
     margin-top: -20px;
-	margin-bottom: 80px; 
+	margin-bottom: 50px; 
 	text-align: center;
 	font-size: 4.5rem;
 	font-family: 'Assistant', sans-serif;
