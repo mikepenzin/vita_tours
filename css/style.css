@@ -57,6 +57,7 @@ body {
 	color: #393e41;
 	/*padding-top: 28px;*/
 	font-family: 'Assistant', sans-serif;
+	z-index: -100;
 }
 
 .row {
@@ -96,6 +97,22 @@ body {
 .navbar-default{
     background: transparent;
     border: none !important;
+    transition-duration: 0.5s;
+}
+
+@media (max-width: 768px) {
+	.navbar-header{
+		background-color: #393e41;
+		padding-bottom: 5px;
+		border: none !important;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-header{
+		background-color: transparent;
+		border: none !important;
+	}
 }
 
 .navbar-nav>li>a:link{
@@ -115,12 +132,12 @@ body {
 }
 
 .collapse.in{
-    background: transparent;
+    background-color: #393e41;
     border: none !important;
 }
 
 .collapsing {
-	background: transparent;
+	background-color: #393e41;
     border: none !important;
 }
 
@@ -169,6 +186,8 @@ body {
 	position: relative;
     overflow: hidden;
     height: 100vh;
+    z-index: 0;
+
 }
 
 .jumbotron h1 {
@@ -178,6 +197,8 @@ body {
 	margin-bottom: 10vh;
 	z-index: 100;
 	line-height: 40%;
+	z-index: 100;
+
 }
 
 .jumbotron h1 .logo-heb {
@@ -215,13 +236,13 @@ body {
 }
 
 /*images*/
-
+/*
 https://hd.unsplash.com/photo-1467035170010-4983895b24cd
 https://upload.wikimedia.org/wikipedia/commons/a/ae/PikiWiki_Israel_4207_landscape_in_Ramat_Hagolan.jpg
-
+*/
 
 /*Jumbotron video*/
-/*#video-background { 
+#video-background { 
 	position: absolute;
 	height: auto;
 	width: auto;
@@ -232,9 +253,9 @@ https://upload.wikimedia.org/wikipedia/commons/a/ae/PikiWiki_Israel_4207_landsca
 	-webkit-transform: translate3d(-50%, -50%, 0);
 	transform: translate3d(-50%, -50%, 0);
 	z-index: -100;
-}*/
+}
 
-/*.jumbotron .overlay {
+.jumbotron .overlay {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -242,7 +263,7 @@ https://upload.wikimedia.org/wikipedia/commons/a/ae/PikiWiki_Israel_4207_landsca
     left: 0px;
     z-index: -10;
     background: rgba(0, 0, 0, 0.5);
-}*/
+}
 
 .intext-logo {
 	font-family: "Parisienne";
