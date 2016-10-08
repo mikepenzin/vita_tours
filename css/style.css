@@ -4,6 +4,7 @@
 @import 'bootstrap.min.css';
 @import 'https://cdn.rawgit.com/morteza/bootstrap-rtl/v3.3.4/dist/css/bootstrap-rtl.min.css';
 @import 'jquery-ui.css';
+@import 'animate.min.css';
 
 /* Large desktop */
 @media (min-width: 1200px) { ... }
@@ -58,6 +59,7 @@ body {
 	/*padding-top: 28px;*/
 	font-family: 'Assistant', sans-serif;
 	z-index: -100;
+    opacity: 1;
 }
 
 .row {
