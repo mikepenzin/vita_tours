@@ -1,5 +1,5 @@
 @import 'normalize.css';
-@import 'https://fonts.googleapis.com/css?family=Assistant|Parisienne';
+@import 'https://fonts.googleapis.com/css?family=Assistant|Parisienne&subset=hebrew';
 @import '../font-awesome/css/font-awesome.min.css';
 @import 'bootstrap.min.css';
 @import 'https://cdn.rawgit.com/morteza/bootstrap-rtl/v3.3.4/dist/css/bootstrap-rtl.min.css';
@@ -299,81 +299,6 @@ https://upload.wikimedia.org/wikipedia/commons/a/ae/PikiWiki_Israel_4207_landsca
 
 .btn-learn-1:hover {
 	background: #eaeaea;
-}
-
-/*Modal Style*/
-.modal-logo {
-	font-family: 'Parisienne', cursive;
-	color: #393e41;
-	font-size: 4.8rem;
-	padding-bottom: 40px;
-	text-align: center;
-}
-
-.modal-logo-heb {
-	font-family: 'Assistant', sans-serif;
-	color: #393e41;
-	font-size: 4.8rem;
-	padding-bottom: 40px;
-	text-align: center;
-}
-
-.rcorners {
-    text-align: center;
-}
-
-.hiw-icon{
-	color: #F7F7F7;
-	border: 1px dashed #393e41;
-	border-radius: 100%;
-}
-
-.hiw-text {
-	text-align: center;
-	padding-bottom: 20px;
-}
-
-.modal-content {
-	background: #F7F7F7;
-}
-
-.modal-content-2 {
-	background: #F7F7F7;
-}
-
-.modal-header {
-	color: #F7F7F7;
-	text-align: center;
-	border-bottom: none;
-	padding-bottom: 5%;
-}
-
-.modal-header-2 {
-	color: #F7F7F7;
-	text-align: center;
-	border-bottom: none;
-}
-
-.modal-footer {
-	border-top: none;
-}
-
-.button-new-reverse {
-	background: #F7F7F7;
-	border: 1px solid #393e41;
-	color: #393e41;
-}
-
-.button-new-reverse:hover {
-	background: #393e41;
-	border: 1px solid #393e41;
-	color: #F7F7F7;
-}
-
-.modal-dialog {
-	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
 }
 
 /*Recipe Gallery*/
